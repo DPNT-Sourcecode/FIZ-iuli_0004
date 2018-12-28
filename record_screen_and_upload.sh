@@ -157,7 +157,7 @@ function splitJvmOpts() {
 }
 
 # Prepare jar file
-JARFILE=${APP_HOME}/record/record-and-upload-capsule.jar
+JARFILE=${APP_HOME}/record/record-and-upload-macos-0.0.17-all.jar
 if $cygwin ; then
     JARFILE=`cygpath --path --mixed "$JARFILE"`
 fi
